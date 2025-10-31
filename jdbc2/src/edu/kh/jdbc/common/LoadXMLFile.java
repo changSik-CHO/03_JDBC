@@ -29,8 +29,8 @@ public class LoadXMLFile {
 			// 	 key	 :      value
 			// driver    : oracle.jdbc.driver.OracleDriver
 			// url       : jdbc:oracle:thin:@localhost:1521:XE
-			// userName  : kh_cmh
-			// password  : kh1234
+			// userName  : kh_ccl
+			// password  : oracle
 			
 			// prop.getProperty("key") : key가 일치하는 속성값(value)을 얻어옴
 			String driver = prop.getProperty("driver");

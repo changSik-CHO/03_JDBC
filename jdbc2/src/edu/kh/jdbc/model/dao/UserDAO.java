@@ -352,6 +352,10 @@ public class UserDAO {
 		
 		return count;
 	}
+<<<<<<< Updated upstream
+	
+=======
+>>>>>>> Stashed changes
 	
 	
 	

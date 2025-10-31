@@ -55,8 +55,8 @@ public class JDBCTemplate {
 			// Class.forName("oracle.jdbc.driver.OracleDriver")
 			
 			conn = DriverManager.getConnection( prop.getProperty("url"), // "jdbc:oracle:thin:@localhost:1521:XE"
-												prop.getProperty("userName"), // "kh_cmh"
-												prop.getProperty("password") ); // "kh1234"
+												prop.getProperty("userName"), // "kh_ccl"
+												prop.getProperty("password") ); // "oracle"
 			
 			// 4. 만들어진 Connection 에서 AutoCommit 끄기
 			conn.setAutoCommit(false);

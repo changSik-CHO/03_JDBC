@@ -67,8 +67,8 @@ public class JDBCExample1 {
 			
 			// jdbc:oracle:thin:@localhost:1521:XE
 			
-			String userName = "kh_cmh"; // 사용자 계정명
-			String password = "kh1234"; // 계정 비밀번호
+			String userName = "kh_ccl"; // 사용자 계정명
+			String password = "oracle"; // 계정 비밀번호
 			
 			// 2-3) DB연결 정보와 DriverManager를 이용해서 Connection 객체 생성
 			conn = DriverManager.getConnection( type+host+port+dbName ,userName ,password);

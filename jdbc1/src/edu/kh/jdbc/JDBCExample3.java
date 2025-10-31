@@ -36,8 +36,9 @@ public class JDBCExample3 {
 			Class.forName("oracle.jdbc.driver.OracleDriver");
 			
 			String dbInfo = "jdbc:oracle:thin:@localhost:1521:XE"; 
-			String userName = "kh_cmh";
-			String password = "kh1234";
+			String userName = "kh_ccl";
+			String password = "oracle";
+			
 			
 			conn = DriverManager.getConnection(dbInfo, userName, password);
 			

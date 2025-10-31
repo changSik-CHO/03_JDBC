@@ -200,4 +200,8 @@ public class UserService {
 	
 	
 
+<<<<<<< Updated upstream
 }
+=======
+}
+>>>>>>> Stashed changes
